@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C034C"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textAlignment="center"
+        android:textSize="28dp"
+        android:textColor="#56CAD9"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:background="#0A0421"
+        android:padding="16dp"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/textViewWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to World of Android"
+        android:textAlignment="center"
+        android:textSize="23sp"
+        android:textColor="#B1F4E5"
+        android:fontFamily="sans-serif"
+        android:textStyle="italic"
+        android:layout_below="@id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:padding="8dp"/>
+
+    <Button
+        android:id="@+id/buttonHello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="👋👋👋👋👋👋"
+        android:background="#141B59"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/textViewWelcome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"/>
+
+</RelativeLayout>
